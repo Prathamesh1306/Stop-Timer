@@ -63,11 +63,11 @@ function App() {
          Stop
         </button>
 
-        <button onClick={paused} disabled={!isRunning||isPaused}> 
+        <button onClick={paused}> 
          Pause
         </button>
 
-        <button onClick={resume} disabled={!isRunning || !isPaused}> 
+        <button onClick={resume}> 
          resume
         </button>
 
